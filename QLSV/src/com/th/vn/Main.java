@@ -9,7 +9,7 @@ public class Main {
 		fruit.khoitaogiatri();
 		fruit.setColour("Green or red");
 		fruit.setSize("Small");
-		fruit.setTaste("Sweet");
+		fruit.setTaste("DAT");
 		fruit.showInfo();
 	}
 
