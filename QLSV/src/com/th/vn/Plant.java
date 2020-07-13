@@ -5,7 +5,7 @@ public class Plant {
 	public String ten;
 	public String uses;
 	public String price;
-	
+	private int code;
 
 	public String FULL() {
 		String full =ten + " " + uses + " " + price ;
