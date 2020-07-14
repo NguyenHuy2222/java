@@ -5,7 +5,7 @@ public class Fruit extends Plant {
 	public String colour;
 	public String taste;
 	public void khoitaogiatri() {
-		Plant full = new Plant("Appe","Thanh nhiet","1$");
+		Plant full = new Plant("DAT","Thanh nhiet","1$");
 		System.out.println(full.FULL());
 		
 	}
