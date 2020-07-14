@@ -9,8 +9,8 @@ public class Main {
 		
 		//Strudent 1
 		studentOne.setDate(2001);
-		studentOne.setCode("S001");
-		studentOne.setName("Huy");
+		studentOne.setCode("SSSABC");
+		studentOne.setName("DAT");
 		studentOne.showInfo();
 		
 		
