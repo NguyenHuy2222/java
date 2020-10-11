@@ -4,7 +4,7 @@ public class vidu {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int height;
+		float height;
 		Scanner scanner = new Scanner(System.in);
 		do {
 			System.out.print("height = ");
