@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main(String[] args) {
-		// PHAM Khac Dat KKK
+		// NGUYEN TUNG HUY
 		int size;   
 	    Scanner scanner = new Scanner(System.in);
 	         
