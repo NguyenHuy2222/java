@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// NGUYEN TUNG HUY
 		int size;   
 	    Scanner scanner = new Scanner(System.in);
 	         
