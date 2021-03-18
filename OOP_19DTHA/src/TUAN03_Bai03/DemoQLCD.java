@@ -4,11 +4,14 @@ public class DemoQLCD {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-		DanhSachCD ds = new DanhSachCD();
+		
 		System.out.println("Nhap so luong cd: ");
-		int n = sc.nextInt();
-		ds.NhapDSCD(n);
+		Scanner sc = new Scanner(System.in);
+		int n =Integer.parseInt(sc.nextLine());
+		DanhSachCD cd = new DanhSachCD();
+		cd.NhapDSCD(n);
+		cd.XuatDSCD();
+		
 	}
 
 }

@@ -1,27 +1,30 @@
 package TUAN03_Bai03;
 
+import java.util.Scanner;
+
+
 
 public class DanhSachCD {
-	CD[] dsCD ;
-	private int sl = 0;
-	/*public CD[] getDsCD() {
-		return dsCD;
-	}
-	public void setDsCD(int n) {
-		this.dsCD = n;
-	}*/
-	public int getSl() {
-		return sl;
-	}
-	public void setSl(int sl) {
-		this.sl = sl;
-	}
+	CD[] dsCD;//= new CD[n]; 
+	DanhSachCD[] cd;
+	
+	
 	public void NhapDSCD(int n) {
-		dsCD = new CD[n];
+		
 		for(int i = 0 ; i < n ; i++) {
+			System.out.println("Nhap thong tin CD thu "+(i+1));
+			
+			cd[i]=new DanhSachCD();
 			dsCD[i].Nhap1CD();
-			sl++;
+			
 		}
 	}
-	
+	public void XuatDSCD() {
+		int n = 0;
+		CD[] dsCD= new CD[n]; 
+		for(int i = 0 ; i < n ; i++) {
+			dsCD[i].Xuat1CD();
+		}
+	}
 }
+
