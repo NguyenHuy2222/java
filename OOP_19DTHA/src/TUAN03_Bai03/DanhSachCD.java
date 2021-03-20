@@ -20,14 +20,15 @@ public class DanhSachCD {
 			
 			System.out.println("Nhap thong tin CD thu "+(i+1));
 			
-			//cd[i]=new DanhSachCD();
+			//cd[i]= new DanhSachCD();
+			dsCD[i] = new CD();
 			dsCD[i].Nhap1CD();
 			sl++;
 		}
 	}
 	public void XuatDSCD() {
-		int n = 0;
-		CD[] dsCD= new CD[n]; 
+		int n = dsCD.length;
+		//CD[] dsCD= new CD[n]; 
 		for(int i = 0 ; i < n ; i++) {
 			dsCD[i].Xuat1CD();
 		}

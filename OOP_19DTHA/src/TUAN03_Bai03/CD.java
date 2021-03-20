@@ -12,6 +12,10 @@ public class CD {
 		this.giaCD = giaCD;
 	}
 
+	public CD() {
+		super();
+	}
+
 	Scanner sc = new Scanner(System.in);
 	private int maCD;
 	private String tenCD;
