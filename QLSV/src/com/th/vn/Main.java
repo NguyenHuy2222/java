@@ -7,7 +7,7 @@ public class Main {
 		Plant plant = new Plant();
 		Fruit fruit = new Fruit();
 		fruit.khoitaogiatri();
-		fruit.setColour("Green or red");
+		fruit.setColour(" TEST Green or red");
 		fruit.setSize("Small");
 		fruit.setTaste("DAT");
 		fruit.showInfo();
